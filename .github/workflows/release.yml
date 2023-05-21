@@ -31,5 +31,5 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            octaspace/faucet:latest
-            octaspace/faucet:${{ env.IMAGE_VERSION }}
+            octaspace/eth-netstats:latest
+            octaspace/eth-netstats:${{ env.IMAGE_VERSION }}
